@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "Parrthi"
+    bucket         = "parrthi"
     region         = "us-east-2"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
